@@ -12,7 +12,7 @@ const connection = new Connection(
 );
 const getBalance = async () => {
   const publicKey = new PublicKey(
-    "G52w8eNDQTez8WgcdL5R9bUMuMqLgB8bMPP7j7Bztmo2"
+    "BbfnKR32sKqFUFsM1WgwHQ468USUvtAgMJDu33CwQsEw"
   );
   const balance = await connection.getBalance(publicKey);
   const balanceSOL = balance / LAMPORTS_PER_SOL;

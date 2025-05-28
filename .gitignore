@@ -1,6 +1,11 @@
 # Dependency directories
 node_modules/
+
+# Environment files
 .env
+
+# Local test validator data
+test-ledger/
 
 # Logs
 npm-debug.log*
