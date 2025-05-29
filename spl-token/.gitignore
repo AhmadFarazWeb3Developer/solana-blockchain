@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+
+# Local test validator data
+test-ledger/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
